@@ -2,7 +2,6 @@
 import sys
 l = [i for i in range(50) if  i <=5]
 
-
 print(l)
 
 '''
