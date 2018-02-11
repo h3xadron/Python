@@ -1,4 +1,3 @@
 #!bin/python
 
-print(set(i for i in (range(0,100)))).issubset((z for z in (range(0,50))))
-
+print ({i for i in range(0,40)}.intersection({z for z in range(0,20)}))
